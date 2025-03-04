@@ -1,39 +1,43 @@
-# Menu-Driven Calculator
+# Scientific Calculator
 
-## Description
-This is a simple menu-driven calculator program written in Python. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a Python-based Scientific Calculator with a graphical user interface (GUI) built using Tkinter. It supports basic arithmetic operations as well as advanced mathematical functions like square root, logarithm, and trigonometric functions.
 
 ## Features
-- User-friendly menu interface
-- Supports addition, subtraction, multiplication, and division
-- Input validation to handle errors
-- Prevents division by zero
-- Option to exit the program
+- **Basic Operations**: Addition, Subtraction, Multiplication, Division
+- **Advanced Functions**:
+  - Square Root (`sqrt`)
+  - Logarithm (`log`)
+  - Trigonometric Functions (`sin`, `cos`, `tan`)
+  - Power (`^`)
+- **Additional Features**:
+  - Clear (`C`)
+  - Backspace (`⌫`)
+  - Evaluates expressions dynamically
+- **Stylized UI**:
+  - Modern button layout with different colors for operations, numbers, and special functions
+  - Responsive design using Tkinter grid
 
-## How to Run
-1. Ensure you have Python installed on your system.
-2. Download or clone the script.
-3. Open a terminal or command prompt.
-4. Navigate to the directory where the script is saved.
-5. Run the script using the command:
+## Installation
+1. Ensure you have Python installed (>=3.x).
+2. Clone or download this repository.
+3. Install dependencies (if not already installed):
+   ```sh
+   pip install tk
    ```
+4. Run the calculator script:
+   ```sh
    python calculator.py
    ```
-6. Follow the on-screen instructions to perform calculations.
 
-## Example Usage
-```
-Menu-Driven Calculator
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Exit
-Enter choice (1-5): 1
-Enter first number: 5
-Enter second number: 3
-Result: 8.0
-```
+## Usage
+- Click buttons to enter numbers and operations.
+- Press `=` to evaluate expressions.
+- Use `C` to clear input and `⌫` to delete the last character.
+- Trigonometric functions work in degrees.
+
 
 ## License
-This project is open-source and available for personal or educational use.
+This project is open-source and can be modified and distributed freely.
+
+## Author
+- Developed by [Your Name]
