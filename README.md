@@ -39,5 +39,3 @@ This is a Python-based Scientific Calculator with a graphical user interface (GU
 ## License
 This project is open-source and can be modified and distributed freely.
 
-## Author
-- Developed by [Your Name]
